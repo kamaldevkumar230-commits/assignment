@@ -1,0 +1,111 @@
+<!Doctype html>
+<head>
+<title>different Style</title>
+<style>
+body{
+background-color:gray;
+}
+
+*{
+margin:0;
+padding:0;
+
+}
+header{
+background-color:black;
+color:white;
+  display: flex;
+  justify-content: space-between;
+align-items:center;
+padding:10px 20px;
+border:2px solid;
+border-color:skyblue;
+} 
+.nav-links a{
+margin-left:20px;
+color:white;
+}
+.dclass{
+background-color:blue;
+}
+.hero {
+  background-color:rgb(003,004,050);
+url('https://images.unsplash.com/photo-1606813902604-fb89f63657a4?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+  height: 150px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.products{
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+.product-card {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+.footer{
+height:20px;
+width:100%;
+background-color:rgb(001,002,050);
+text-align:center;
+padding:40px;
+color:white;
+}
+</style>
+</head>
+<body>
+<header class="header">
+    <div class="logo">amazon<span>.clone</span></div>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+      <button>🔍</button>
+    </div>
+    <div class="nav-links">
+      <a href="D:\kamaldev html agsiment\3rd agssiment\q10Registrationform.html">Sign In</a>
+      <a href="#">Orders</a>
+      <a href="#">Cart 🛒</a>
+    </div>
+  </header>
+<div class="hero">
+<h1>Welcome to Amazon Clone</h1>
+<p>shop the best products at the best prices</P>
+</div>
+  <section class="products">
+    <div class="product-card">
+      <img src="D:\kamaldev html agsiment\product1.jpg" alt="Product">
+      <h3>Product 1</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+ <div class="product-card">
+      <img src="D:\kamaldev html agsiment\2nd agssiment\product2.jpg">
+      <h3>Product 1</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+ <div class="product-card">
+      <img src="D:\kamaldev html agsiment\2nd agssiment\product3.jpg">
+      <h3>Product 1</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+ <div class="product-card">
+      <img src="D:\kamaldev html agsiment\2nd agssiment\product5.jpg">
+      <h3>Product 1</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+</section>
+<footer class="footer"><p>&copy; all right reciver!</p> 
+</footer>
+</body>
+</html>
